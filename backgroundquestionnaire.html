@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="Background.css">
+    <title>Background Questionnaire</title>
+</head>
+
+  <!--<header>
+        <img src="gallery/footPrint.jpg">
+    </header>-->
+    
+    <!--Navigation Begins-->
+    <div class="navBar">
+      <div class="listwrap">
+    <ul>
+      <li>
+        <a href="index1.html">Home</a>
+      </li> 
+      <li>
+        <a href="backgroundquestionnaire.html">Background Questionnaire</a>
+      </li> 
+      <li>
+        <a href="Task1.html">Tasks</a>
+      </li>
+      <li>
+        <a href="Footprintcalculator.html">Footprint Calculator</a>
+      </li>
+
+      <li>
+        <a href="contactme.html">Contact Me</a>
+      </li>
+    </ul>
+    </div>
+    </div>
+    <!--Navigation Ends Here-->
+    <!--Begin Body-->
+    <body>
+    <div class="container">
+      <header class="header">
+          <h1 id="title" class="text-center"><b>Background Questionnaire</b></h1>
+          <p id="description" class="description text-center">Kindly fill out the form with the correct information and then proceed
+          </p>
+      </header>
+
+<form id="survey-form" method="post" action=".">
+  <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required="required"/>
+  </div>
+  <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your Email"
+              required="required"/>
+  </div>
+  <div class="form-group">
+      <label id="number-label" required="required" for="number">Age</label>
+      <input
+              type="number"
+              name="age"
+              id="number"
+              min="10"
+              max="99"
+              class="form-control"
+              placeholder="Age"
+              step="1"/>
+  </div>
+  <div class = "form-group">
+  <label for="gender" required="required">Gender</label>
+                <select name="Gender" id="Gender" required="required">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value=".">Prefer not to say</option>
+                </select>
+              </div>
+
+  <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your comment here...">
+      </textarea>
+  </div>
+
+  <div class="form-group">
+      <button type="submit" id="submit" class="submit-button"><a href="Task1.html">Submit and continue</a></button>
+  </div>
+</form>
+</div>
+</body>
+</html>

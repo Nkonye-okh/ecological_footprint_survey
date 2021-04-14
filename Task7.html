@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="UseofStuff.css">
+    <title>Home</title>
+</head>
+
+<!--<header>
+        <img src="gallery/footPrint.jpg">
+    </header>-->
+<!--Navigation Begins-->
+<div class="navBar">
+    <div class="listwrap">
+        <ul>
+            <li>
+                <a href="index1.html">Home</a>
+            </li>
+            <li>
+                <a href="backgroundquestionnaire.html">Background Questionnaire</a>
+            </li>
+            <li>
+                <a href="Task1.html">Tasks</a>
+            </li>
+            <li>
+                <a href="Footprintcalculator.html">Footprint Calculator</a>
+            </li>
+            <li>
+                <a href="contactme.html">Contact Me</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--Navigation Ends Here-->
+<!--Begin Body-->
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center"><b>Use of Stuff</b></h1>
+            <p id="description" class="description text-center">In this section of the survey, you will see 6 multiple questions regarding use of stuff.
+                <br>Please choose the option that suits best to your case.
+
+            </p>
+        </header>
+
+        <form id="survey-form" method="post" action=".">
+            <div class="form-group">
+                    <p>1. All my garbage from today could fit into a</p>
+                    <select name="garbage from today" id="garbage from today" required="required">
+                        <option disabled selected value>Please Select</option>
+                        <option value="Shoebox">Shoebox</option>
+                        <option value="Large pail">Large pail</option>
+                        <option value="Garbage can">Garbage can</option>
+                        <option value="No garbage created today!">No garbage created today!</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <p>2. I reuse items rather than throw them out.</p>
+                    <select name="reuse" id="reuse" required="required">
+                        <option disabled selected value>Please Select</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+            
+                <div class="form-group">
+                    <p>3. I repair items rather than throw them out.</p>
+                    <select name="repair items" id="repair items" required="required">
+                        <option disabled selected value>Please Select</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <p>4. I recycle all my paper, cans, glass, and plastic.</p>
+                    <select name="recycle items" id="recycle items" required="required">
+                        <option disabled selected value>Please Select</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <p>5. I avoid disposable items as often as possible.</p>
+                    <select name="avoid disposable items" id="avoid disposable items" required="required">
+                        <option disabled selected value>Please Select</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <p>6. I use rechargeable batteries whenever I can. </p>
+                    <select name="use rechargeable batteries" id="use rechargeable batteries" required="required">
+                        <option disabled selected value>Please Select</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button"><a href="Task8.html">Submit and
+                        continue</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

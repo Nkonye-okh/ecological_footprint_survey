@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="Fun.css">
+    <title>Home</title>
+</head>
+
+<!--<header>
+        <img src="gallery/footPrint.jpg">
+    </header>-->
+<!--Navigation Begins-->
+<div class="navBar">
+    <div class="listwrap">
+        <ul>
+            <li>
+                <a href="index1.html">Home</a>
+            </li>
+            <li>
+                <a href="backgroundquestionnaire.html">Background Questionnaire</a>
+            </li>
+            <li>
+                <a href="Task1.html">Tasks</a>
+            </li>
+            <li>
+                <a href="Footprintcalculator.html">Footprint Calculator</a>
+            </li>
+            <li>
+                <a href="contactme.html">Contact Me</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--Navigation Ends Here-->
+<!--Begin Body-->
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center"><b>Fun</b></h1>
+            <p id="description" class="description text-center">This is the final section of the survey. 
+                <br> this part, you will see 3 multiple-choice questions regarding entertainment. 
+                <br>Please choose the option that fits best to your case. 
+        </header>
+   
+
+    <form id="survey-form" method="post" action=".">
+
+        <div class="form-group">
+        <p>1. For typical play, the land converted into fields, rinks, pools, gyms, ski slopes, parking lots, etc., added together occupy:</p>
+        <select name="total land mass" id="total land mass" required="required">
+            <option disabled selected value>Please Select</option>
+            <option value="Nothing">Nothing</option>
+            <option value="Less than 1 hectare / 2½ acres">Less than 1 hectare / 2½ acres</option>
+            <option value="1 to 2 hectares / 2½ to 5 acres">1 to 2 hectares / 2½ to 5 acres</option>
+            <option value="2 or more hectares / 5 or more acres">2 or more hectares / 5 or more acres</option>
+        </select> 
+        </div>
+
+        <div class="form-group">
+        <p>2. On a typical day, I use the TV or computer:</p>
+        <select name="TV or computer" id="TV or computer" required="required">
+            <option disabled selected value>Please Select</option>
+            <option value="Not at all">Not at all</option>
+            <option value="Less than 1 hour">Less than 1 hour</option>
+            <option value="More than 1 hour">More than 1 hour</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <p>3. How much equipment is needed for typical activities?</p>
+        <select name="equipmentfortypicalactivities" id="equipmentfortypicalactivities" required="required">
+            <option disabled selected value>Please Select</option>
+            <option value="None">None</option>
+            <option value="Very little">Very little</option>
+            <option value="Some">Some</option>
+            <option value="A lot">A lot</option>
+        </select>
+    </div>
+        
+
+        <div class="form-group">  
+            <button type="submit" id="submit" class="submit-button"><a href="Thankyou.html">Submit and finish</a></button>     
+    </div>
+    </form>
+
+</body>
+
+</html>
