@@ -1,3 +1,41 @@
+.navBar {
+    background-color: darkgreen;
+    background-size: 9em;
+    overflow: auto;
+    height: 70px;
+}
+.navBar ul {
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.navBar ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navBar ul li a {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navBar ul li a:hover {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(161, 221, 22);
+    text-decoration: underline;
+}
+
+
+.listwrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+
 :root {
     --color-white: #f3f3f3;
     --color-darkblue: #1b321f;
@@ -14,11 +52,11 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
-    color: var(--color-darkblue);
+    color: var(--color-white);
     margin: 0;
 }
 
@@ -43,6 +81,27 @@ body::before {
     background-position: center;
 }
 
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+h1,
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
 
 section {
     min-height: 100vh;
@@ -77,6 +136,7 @@ section {
 }
 
 .description {
+    font-style: italic;
     font-weight: 200;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
@@ -89,9 +149,20 @@ section {
 
 .text-center {
     text-align: center;
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+h1 .text-center {
+    font-size: 21px;
+}
+
+
 .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
     width: 100%;
     margin-top: 20px;
 }
@@ -134,45 +205,6 @@ section {
     padding: 5px;
     resize: horizontal;
 }
-
-
-.navBar {
-    background-color: darkgreen;
-    background-size: 9em;
-    overflow: auto;
-    height: 70px;
-}
-.navBar ul {
-    list-style-type: none;
-    margin-top: 25px;
-}
-
-.navBar ul li {
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.navBar ul li a {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-    text-decoration: none;
-}
-
-.navBar ul li a:hover {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(161, 221, 22);
-    text-decoration: underline;
-}
-
-.listwrap {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 700px;
-}
-
 
 button.next-btn,
 button.previous-btn,
